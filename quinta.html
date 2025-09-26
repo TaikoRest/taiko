@@ -13,6 +13,7 @@
     .controls { margin: 8px 0 18px 0; }
     .btn { display:inline-block; padding:6px 10px; border:1px solid #bbb; border-radius:6px; text-decoration:none; }
     .btn:hover { background:#f7f7f7; }
+    .timestamp { position:absolute; top:10px; right:20px; font-size:12px; color:#666; }
   </style>
   <script>
     function toggleTable(id) {
@@ -31,14 +32,15 @@
   </script>
 </head>
 <body>
-	</br>
-  <h2><a href="index.html">Voltar</a></h2><br/>
+  <div class="timestamp">Gerado em: 26/09/2025 16:09:09</div>
+  </br><h2><a href="index.html">Voltar</a></h2><br/>
   <h1>Relatorios Quinta</h1>
   <div class="controls">
     <a class="btn" href="javascript:void(0)" onclick="expandAll()">Expandir tudo</a>
     <a class="btn" href="javascript:void(0)" onclick="collapseAll()">Recolher tudo</a>
   </div>
-  <!-- SECTIONS START --><!-- BEGIN DIA 25-09-2025 -->
+  <!-- SECTIONS START -->
+<!-- BEGIN DIA 25-09-2025 -->
 <h2 onclick="toggleTable('tabela_20250925')">📅 25-09-2025 - Quinta</h2>
 <table id="tabela_20250925" class="table" style="display:none;" class="dataframe">
   <thead>
@@ -242,6 +244,6 @@
   </tbody>
 </table>
 <!-- END DIA 04-09-2025 -->
-<!-- SECTIONS END --><p style='text-align:center; font-size:12px; color:#666;'>Index gerado em: 26/09/2025 13:50:03</p>
+<!-- SECTIONS END --><p style='text-align:center; font-size:12px; color:#666;'>Index gerado em: 26/09/2025 16:09:09</p>
 </body>
 </html>
